@@ -1,0 +1,30 @@
+
+public class ASS5_3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int i =1,m;
+	while(i<=5)
+	{
+		
+		for(m=1;m<=i;m++)
+		{
+			System.out.println(m);
+		}
+		System.out.println("\n");
+		i++;
+	}
+	i=5;
+	while(i>=1)
+	{
+		
+		for(m=1;m<i;m++)
+		{
+			System.out.println(m);
+		}
+		System.out.println("\n");
+		i--;
+	}
+	}
+
+}
