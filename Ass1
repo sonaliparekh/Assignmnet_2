@@ -1,0 +1,19 @@
+
+public class Ass5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//Check if user is allowed to vote or not .
+		
+		int age = 26;
+		if(age >=18)
+		{
+			System.out.println("User is eligible to vote");
+		}
+		else
+		{
+			System.out.println("User is not eligible to vote ");
+		}
+	}
+
+}
